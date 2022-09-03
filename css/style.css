@@ -1,1 +1,56 @@
+*{margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed','Dosis', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Heebo:wght@100;300&display=swap');
+
+header{width: 100vw;
+    width: 300vmin;
+    height: 10vh;
+    background-color: #ccdad2;}
+
+    .log{color: #00984a;
+        font-weight: 1000;
+        font-size: 35px;
+        margin-left: 5%;
+        }
+
+    .nav1 h3{background: linear-gradient(to bottom, #00984a ,#0072bc );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .nav1{ margin: 3px;
+
+    }
+
+    .conteiner{ width: 80vw;
+        width: 200vmin;
+        height: 8vh;
+        display: flex;
+        flex-direction: row;
+        align-content: flex;
+    }
+
+
+        
+
+    
+
+    
+
+
+
+
+
+
+    
+
+
+
+
 
