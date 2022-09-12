@@ -1,0 +1,139 @@
+*{
+    
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed','Dosis', sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(246, 248, 246);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.container a{
+    font-size: 30px;
+    position: relative;
+    color: rgb(45, 134, 34);
+    padding: 100px;
+    font-weight: 600;
+    
+    
+    
+    
+}
+
+li{
+    list-style: none;
+    
+}
+
+.flag{
+    height: 18vh;
+    
+}
+
+.banner{
+    position: relative;
+    width: 99vw;
+    height: 60vh;
+    
+    
+}
+
+
+    
+
+
+.infocity{
+    background-color: black;
+}
+body{
+    
+    background-color: rgb(45, 134, 34);
+}
+
+.card{
+    display: flex;
+    background-color: rgb(45, 134, 34);
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    font-size: 15px;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+    padding:70px;
+    text-align: left;
+    font-weight: bold;
+}
+.card1{
+    position: relative;
+    background-color: white;
+    padding: 45px;
+    border-radius: 20px;
+    
+}
+
+.card2{
+    position: relative;
+    background-color: white;
+    padding: 27px;
+    border-radius: 20px;
+    
+}
+
+.card3{
+    position: relative;
+    background-color: white;
+    padding: 27px;
+    border-radius: 20px;
+}
+
+span{
+    color: rgb(10, 10, 10);
+    background-color: rgb(45, 134, 34);
+    font-weight: 900;
+}
+
+.videoo{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.git1{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    margin: 50px;
+    
+}
+
+.lgh{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links{
+    
+    color: red;
+    
+}
+
+.links:hover{
+    transition: 0.5ms;
+    
+    background-color: rgb(45, 134, 34);
+}
