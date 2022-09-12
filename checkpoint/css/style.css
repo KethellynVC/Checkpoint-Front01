@@ -1,5 +1,4 @@
 *{
-    
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
@@ -15,8 +14,6 @@
     justify-content: space-around;
     font-size: 40px;
     flex-wrap: wrap;
-    
-    
 }
 
 .container a{
@@ -25,39 +22,27 @@
     color: rgb(45, 134, 34);
     padding: 100px;
     font-weight: 600;
-    
-    
-    
-    
 }
 
 li{
     list-style: none;
-    
 }
 
 .flag{
     height: 18vh;
-    
 }
 
 .banner{
     position: relative;
     width: 99vw;
     height: 60vh;
-    
-    
 }
-
-
-    
-
 
 .infocity{
     background-color: black;
 }
+
 body{
-    
     background-color: rgb(45, 134, 34);
 }
 
@@ -74,12 +59,12 @@ body{
     text-align: left;
     font-weight: bold;
 }
+
 .card1{
     position: relative;
     background-color: white;
     padding: 45px;
     border-radius: 20px;
-    
 }
 
 .card2{
@@ -87,7 +72,6 @@ body{
     background-color: white;
     padding: 27px;
     border-radius: 20px;
-    
 }
 
 .card3{
@@ -105,7 +89,6 @@ span{
 
 .videoo{
     display: flex;
-    
     justify-content: center;
 }
 
@@ -114,7 +97,6 @@ span{
     width: 90px;
     height: 40px;
     margin: 50px;
-    
 }
 
 .lgh{
@@ -127,13 +109,10 @@ span{
 }
 
 .links{
-    
     color: red;
-    
 }
 
 .links:hover{
     transition: 0.5ms;
-    
     background-color: rgb(45, 134, 34);
 }
