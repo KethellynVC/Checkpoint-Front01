@@ -1,116 +1,118 @@
 *{
     margin: 0;
-    padding: 0;
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Barlow Condensed','Dosis', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Heebo:wght@100;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Fredoka+One&family=Heebo:wght@100&display=swap');
+.container{
+    display: flex;
+    background-color: rgb(246, 248, 246);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+
+.container a{
+    font-size: 30px;
+    position: relative;
+    color: rgb(45, 134, 34);
+    padding: 100px;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+}
+
+.flag{
+    height: 18vh;
+}
+
+.banner{
+    position: relative;
+    width: 99vw;
+    height: 60vh;
+}
+
+.infocity{
+    background-color: black;
+}
 
 body{
-    background-color: #e4e2e2;
-    width: 100%;
-}
-
-.img{
-    width: 100%;
-    height: 530px;
-}
-
-.bandeira{
-    width: 100%;
-    height: 21%;
-    background-color: #e4e2e2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-    
-.bandeira h1{
-    margin-left: 3%;
-    color: #ffffffff;
-    font-size: 400;
-    font-family: "Barlow Condensed",sans-serif;
-    font-size: 45px;
-}
-
-.menu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
-    width: 100%;
-    height: 36px;
-    background-color: #ffffffff;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-        
-.menu a{
-    color: #080808;
-    text-decoration: none;
-    margin-right: 12px;
-    display: flex;
-    align-items: center;
-}
-
-.conteiner{
-    display: flex;
-
-    width: 100%;
-    height: 500px;
-
-    background: #94e394;
-}
-
-.card-conteiner{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100px;
-    padding: 100px;
-    justify-content: space-around;
-}
-
-.vid{
-    display: flex;
-    justify-items: center;
-}
-
-h3{
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    height: 36px;
-    font-weight: 280;
-    font-size: 32px;
-    margin-top: 15px;
-    align-content: center;
+    background-color: rgb(45, 134, 34);
 }
 
 .card{
-    width: 450px;
-    height: 250px;
-    background-color: #fff;
-    border-radius: 40px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-     
-.card h2{
     display: flex;
-    justify-content: left;
-    margin-top: 25px;
-    margin-left: 30px;
+    background-color: rgb(45, 134, 34);
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    font-size: 15px;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+    padding:70px;
+    text-align: left;
+    font-weight: bold;
 }
 
-.card p{
-    margin-left: 30px;
-    margin-top: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left;
+.card1{
+    position: relative;
+    background-color: white;
+    padding: 45px;
+    border-radius: 20px;
+}
+
+.card2{
+    position: relative;
+    background-color: white;
+    padding: 27px;
+    border-radius: 20px;
+}
+
+.card3{
+    position: relative;
+    background-color: white;
+    padding: 27px;
+    border-radius: 20px;
+}
+
+span{
+    color: rgb(10, 10, 10);
+    background-color: rgb(45, 134, 34);
+    font-weight: 900;
+}
+
+.videoo{
+    display: flex;
+    justify-content: center;
+}
+
+.git1{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    margin: 50px;
+}
+
+.lgh{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links{
+    color: red;
+}
+
+.links:hover{
+    transition: 0.5ms;
+    background-color: rgb(45, 134, 34);
 }
